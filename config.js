@@ -5,5 +5,5 @@ export const config = {
   prefix: "Ib",
   mode: "privé",
   version: "2.0",
-  ownerNumber: ["224XXXXXXXX"] // ton numéro
-}
+  ownerNumber: ["224621963059"] // ton numéro WhatsApp
+};

@@ -1,4 +1,4 @@
-// config.js
-export const config = {
-  Number: "224621963059" // ton numéro WhatsApp sans le "+"
-};
+// index.js
+import { startBot } from './lib/handler.js';
+
+startBot();

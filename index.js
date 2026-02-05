@@ -1,7 +1,4 @@
-import connectToWhatsapp from './lib/connection.js'
-import handleIncomingMessage from './lib/handler.js'
+// index.js
+const connectToWhatsapp = require('./lib/connection.js'); // require CommonJS
 
-(async () => {
-  await connectToWhatsapp(handleIncomingMessage)
-  console.log('🤖 IB-HEX-MD est connecté avec succès !')
-})()
+connectToWhatsapp(); // lance la fonction

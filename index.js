@@ -1,4 +1,4 @@
-// index.js
-const connectToWhatsapp = require('./lib/connection.js'); // require CommonJS
-
-connectToWhatsapp(); // lance la fonction
+// config.js
+export const config = {
+  Number: "224621963059" // ton numéro WhatsApp sans le "+"
+};
